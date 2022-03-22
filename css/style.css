@@ -1,0 +1,333 @@
+/* VARIABLES */
+/* MIXINS */
+/* STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Questrial', sans-serif;
+  scroll-behavior: smooth;
+  font-family: 'Nunito Sans', sans-serif; }
+
+header {
+  height: 80vh;
+  background: url("../img/header.jpg") center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center; }
+  header nav {
+    padding: 0 10%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 60px; }
+    header nav a {
+      text-decoration: none;
+      color: #ffffff; }
+      header nav a:hover {
+        color: #f0957d; }
+  header h1 {
+    font-size: 72px;
+    margin-bottom: 20px;
+    font-family: "Abril Fatface", cursive;
+    font-weight: lighter; }
+  header h3 {
+    font-weight: lighter;
+    margin-bottom: 20px; }
+  header button {
+    height: 50px;
+    width: 150px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.4s linear; }
+    header button:hover {
+      background-color: #023756;
+      border: 2px solid #023756; }
+
+#one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 10%; }
+  #one h2 {
+    font-family: "Abril Fatface", cursive;
+    font-weight: normal;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 30px; }
+    #one h2:after {
+      content: '';
+      display: block;
+      background: #f17a6b;
+      height: 3px;
+      width: 70px;
+      margin: 30px auto; }
+  #one div.container {
+    display: flex;
+    align-items: center; }
+    #one div.container div.wrapper {
+      text-align: center;
+      padding-right: 10%; }
+      #one div.container div.wrapper:last-child {
+        padding-right: 0; }
+      #one div.container div.wrapper .fa-comments,
+      #one div.container div.wrapper .fa-hands-helping,
+      #one div.container div.wrapper .fa-heart {
+        font-size: 60px; }
+      #one div.container div.wrapper h3 {
+        font-family: "Abril Fatface", cursive;
+        font-weight: normal;
+        font-size: 24px;
+        margin: 15px 0; }
+
+#two .one,
+#two .two {
+  width: 50%;
+  float: left; }
+
+#two .one {
+  background: url(../img/collaboration.jpg) center;
+  background-size: cover;
+  padding: 53px 0;
+  color: #ffffff; }
+  #two .one p {
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Abril Fatface', cursive; }
+
+#two .two {
+  background-color: #eeeeee;
+  height: 646px;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  #two .two h2 {
+    font-family: "Abril Fatface", cursive;
+    font-weight: normal;
+    font-size: 48px;
+    margin-bottom: 30px; }
+    #two .two h2:after {
+      content: '';
+      display: block;
+      background: #f17a6b;
+      height: 3px;
+      width: 70px;
+      margin: 30px 0; }
+  #two .two h3 {
+    font-family: "Abril Fatface", cursive;
+    font-weight: normal;
+    font-size: 24px; }
+  #two .two h3, #two .two p {
+    margin-bottom: 10px; }
+
+#three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 10%; }
+  #three h2 {
+    font-family: "Abril Fatface", cursive;
+    font-weight: normal;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 30px; }
+    #three h2:after {
+      content: '';
+      display: block;
+      background: #f17a6b;
+      height: 3px;
+      width: 70px;
+      margin: 30px auto; }
+  #three div.container {
+    display: flex;
+    align-items: center; }
+    #three div.container div.wrapper {
+      text-align: center;
+      padding-right: 10%; }
+      #three div.container div.wrapper:last-child {
+        padding-right: 0; }
+      #three div.container div.wrapper img {
+        width: 100%; }
+      #three div.container div.wrapper h3 {
+        font-family: "Abril Fatface", cursive;
+        font-weight: normal;
+        font-size: 24px;
+        margin: 15px 0; }
+
+#map {
+  position: relative; }
+  #map #information {
+    width: 350px;
+    height: 500px;
+    background-color: #fcc5a2;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    transform: translate(50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    #map #information h3 {
+      font-family: "Abril Fatface", cursive;
+      font-weight: normal; }
+    #map #information p {
+      margin: 10px 0 30px 0; }
+
+#contact {
+  padding: 80px 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  #contact h2 {
+    font-family: "Abril Fatface", cursive;
+    font-weight: normal;
+    font-size: 48px;
+    margin-bottom: 30px; }
+    #contact h2:after {
+      content: '';
+      display: block;
+      background: #f17a6b;
+      height: 3px;
+      width: 70px;
+      margin: 30px auto; }
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 580px; }
+    #contact form .form-control {
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid #dddddd;
+      margin-bottom: 15px; }
+    #contact form input {
+      width: 285px; }
+      #contact form input:last-child {
+        margin-left: 5px; }
+    #contact form textarea {
+      width: 580px;
+      resize: none; }
+    #contact form button {
+      height: 40px;
+      width: 80px;
+      border: none;
+      border-radius: 10px;
+      background-color: #fcc5a2;
+      color: #808080;
+      cursor: pointer;
+      transition: all 0.4s linear; }
+      #contact form button:hover {
+        background: #f0957d;
+        color: #ffffff; }
+
+footer {
+  background-color: #00173d;
+  color: #ffffff;
+  padding: 80px 5%;
+  display: flex;
+  justify-content: space-between; }
+  footer h4 {
+    font-family: "Abril Fatface", cursive;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-bottom: 10px; }
+  footer p {
+    margin-bottom: 10px; }
+    footer p a {
+      color: #ffffff;
+      cursor: pointer;
+      margin-right: 20px; }
+  footer form {
+    width: 285px;
+    position: relative; }
+  footer input {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px; }
+  footer button {
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fcc5a2;
+    color: #808080;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    float: right; }
+    footer button:hover {
+      background: #f0957d;
+      color: #ffffff; }
+
+@media (max-width: 768px) {
+  #one div.container {
+    flex-direction: column; }
+    #one div.container div.wrapper {
+      padding-right: 0;
+      margin-bottom: 50px; }
+      #one div.container div.wrapper:last-child {
+        margin-bottom: 0; }
+
+  #three div.container {
+    flex-direction: column; }
+    #three div.container div.wrapper {
+      padding-right: 0;
+      margin-bottom: 50px; }
+      #three div.container div.wrapper:last-child {
+        margin-bottom: 0; }
+
+  #map #information {
+    position: static;
+    transform: none;
+    border-radius: 0;
+    width: 100vw;
+    margin-top: 0; }
+
+  footer {
+    flex-direction: column; }
+    footer div {
+      margin-bottom: 30px; }
+      footer div:last-child {
+        margin-bottom: 0; }
+    footer button {
+      float: left; } }
+@media (max-width: 768px) and (orientation: portrait) {
+  #two .one p {
+    font-size: 108px; }
+
+  #contact {
+    padding: 80px 5%; }
+    #contact form {
+      width: 285px; }
+    #contact input#email {
+      margin-left: 0px; }
+    #contact textarea#message {
+      width: 285px; } }
+@media (max-width: 992px) {
+  #two .one,
+  #two .two {
+    width: 100%;
+    float: none; }
+
+  #two .two {
+    height: auto;
+    padding: 80px 5%; } }
+
+/*# sourceMappingURL=style.css.map */
