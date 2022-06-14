@@ -11,7 +11,7 @@
 
 header {
   height: 80vh;
-  background: url("../img/header.jpg") center;
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../img/header.jpg") center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -96,7 +96,7 @@ header {
   float: left; }
 
 #two .one {
-  background: url(../img/a4.jpg) center;
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../img/a1.jpg") center;
   background-size: cover;
   padding: 53px 0;
   color: #ffffff; }
