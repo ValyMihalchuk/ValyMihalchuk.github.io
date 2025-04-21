@@ -13,7 +13,7 @@ title                    : "Valentin Mikhalchuk"
 title_separator          : "-"
 name                     : &name "Valentin Mikhalchuk"
 description              : &description "Intern at VERSE lab"
-url                      : https://valymihalchuk.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://valymihalchuk.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ValyMihalchuk.github.io"
 
