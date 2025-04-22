@@ -23,6 +23,6 @@ Phenotypic Traits Using Cartesian Genetic Programming [Gitlab](https://gitlab.co
 in Python and C
 
 * Determining the effectiveness of momi2 for inferring demographic history in GADMA
-[Githab](https://github.com/ValyMihalchuk/momi2validation)
+[Github](https://github.com/ValyMihalchuk/momi2validation)
     + Validating momi2 engine in GADMA
   
